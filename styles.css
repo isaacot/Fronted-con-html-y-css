@@ -149,7 +149,6 @@ text-decoration: none;
     margin-bottom: 24px;
 }
 .email{
-    margin-top: 10px;
     font-size: var(--sm);
     font-weight: 300 !important;
 
