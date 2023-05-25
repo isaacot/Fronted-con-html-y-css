@@ -11,7 +11,7 @@ const productDetailContainer = document.querySelector('#productDetail');
 menuEmail.addEventListener('click', toggledeskmenu );
 menuHamIcon.addEventListener('click', toggleMobileMenu );
 menuCarritoIcon.addEventListener('click', toggleCarritoAside );
-productCarritoIcon.addEventListener("click", closeProductDetail);
+productDetailContainer.addEventListener("click", closeProductDetail);
 function toggledeskmenu(){
     const isAsideClosed =shoppingCartContainer.classList.contains('inactive');
       
@@ -46,7 +46,7 @@ function openProductDetailAside(){
     productDetailContainer.classList.remove("inactive")
 }
 function closeProductDetail(){
-    productCarritoIcon.classList.add("inactive")
+    productDetailContainer.classList.add("inactive")
 }
 
 const productList = [];
